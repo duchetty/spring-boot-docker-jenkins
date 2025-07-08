@@ -49,6 +49,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>jenkinsapplication</finalName>
+		<finalName>sbapp</finalName>
 	</build>
 </project>

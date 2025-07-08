@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-@RequestMapping("/welocme")
+@RequestMapping("/welcome")
 public class SpringBootDockerJenkinsApplication {
 	
 	@GetMapping("/msg")

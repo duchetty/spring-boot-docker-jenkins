@@ -1,5 +1,5 @@
 FROM openjdk:11
 EXPOSE 9090
-COPY target/jenkinsapplication.jar /usr/app/
+COPY target/sbapp.jar /usr/app/
 WORKDIR /usr/app
-ENTRYPOINT ["java","-jar","jenkinsapplication.jar"]
+ENTRYPOINT ["java","-jar","sbapp.jar"]
